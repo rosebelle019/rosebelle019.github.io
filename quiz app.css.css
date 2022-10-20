@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color:rgb(163, 119, 163);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    
+}
+
+
+.nav{
+    position: relative;
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    top: 70px;
+    left:-20px;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+.quiz{
+    color: white;
+}
+
+.logo img{
+    position: relative;
+    width:150px;
+    float:left;
+    height: 150px;
+    margin: 50px;
+    top: -30px;
+}
+
+.main{
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 850px;
+    height:800px;
+    margin: auto;
+    padding: 60px;
+    top: 190px;
+}
+
+form{
+    padding: 40px;
+}
+
+fieldset{
+    border-radius: 6px;
+    margin: 3%;
+}
+
+.studinfo{
+    background-color:whitesmoke;
+    border-radius: 6px;
+    height: 20px;
+    
+    
+}
+
+.exam{
+    background-color:whitesmoke;
+    border-radius: 6px;
+    height: 20px;
+    
+}
+
+.textarea{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    line-height: px;
+    width:700px;
+    height: 250px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+button{
+    background-color: green;
+    display: block;
+    margin: 35px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 10px 40px;
+    outline: none;
+    color: black;
+    cursor:pointer;
+    transition: 0.25px;
+    
+  
+}
+
+#finish{
+    position:relative;
+    top: -70px;
+    left: -350px;
+   float: right;
+   height: 20px;
+   width: 200px;
+}
+
+
+.bottom{
+    position: relative;
+    background-color: rgb(100, 73, 98);
+    text-align: left;
+    height: 60px;
+    border: 1px solid black;
+    top: 250px;
+    width: 1345px;
+
+}
+
+.find{
+    position: relative;
+    float:left;
+    margin: 4px;
+    top: 20px;
+}
+
+.pic{
+    position: relative;
+    top: 5px;
+    margin: 5px;
+    width: 1000px;
+    float: left;
+    right: 10px;
+}
+
+.instagram{
+    position: relative;
+    top: -3px;
+}
+
+.contact{
+    position: relative;
+    left: 20px;
+    top: 1px;
+}
+
+
+.rct{
+    position: relative;
+    top: 9px;
+    float: right;
+    left: 150px;
+}

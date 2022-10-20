@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="quiz app.css.css">
+</head>
+<body>
+
+    <div>
+        <div class="logo">
+            <a href="index.html"><img src="image/Rosebelle Tabios.jpg"></a>
+            
+                <ul class="nav">
+                    <li><a href="Table.html" >Stats</a></li>
+                    <li><a  href="registration.html">Registration</a></li>
+                    <a class="quiz" href="quiz apphtml.html">Quiz App</a>
+                 </ul>
+        </div>
+    </div> 
+    <br><br>
+   
+
+    <form action="action_page.php" method="GET"> 
+    
+    <div class="main">
+        <fieldset>
+            <legend class="studinfo">Student Info</legend><br>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Rosebelle C. Tabios"></input> 
+            <br> <br>
+
+            <label>E-mail:</label>
+            <input type="text" name="e-mail" placeholder="rosebelletabios"></input> 
+            <br> <br>
+
+            <label>Course:</label>
+            <input type="text" name="course" placeholder="Please input course and block"></input> 
+            <br><br>
+
+            <label>Date:</label>
+            <input type="date" id="bdate" name="bdate">
+        </fieldset>  
+
+        <fieldset>
+            <legend class="exam">Exam Proper</legend><br>
+            <p>1. What does HTML stand for?</p>
+            <input type="text" name="ques1"></input> 
+            <br><br>
+
+            <p>2. HTML is case sensitive.</p>
+            <input type="radio" id="true" name="ques2">True</input>
+            <input type="radio" id="false" name="ques2">False</input>
+            <br><br>
+            
+            <p>3. Select all legitimate CSS properties.</p>
+            <input type="checkbox" id="font" name="font">Font</input><br>
+            <input type="checkbox" id="label" name="label">Label</input><br>
+            <input type="checkbox" id="background" name="background">Background</input><br>
+            <input type="checkbox" id="forms" name="forms">Forms</input><br><br>
+
+            <p>4.Upload a simple navigation markup.</p>
+            <input type="file"  name="file"></input><br><br>
+
+            <p>5.Discuss if you want to be a front-end or back-end developer.</p>
+            <textarea class="textarea" name="message"></textarea>
+            <br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <meter id="finish" name="finish" value="0.9">100%</meter>
+    </div>
+
+
+    </form>
+    <br><br><br><br><br>
+    <footer>
+        <div class="bottom">
+            <p class="find">Here's to find me:<p>
+            <div class="pic">
+                <a href="https://web.facebook.com/?_rdc=1&amp;_rdr"><img src="image/fb.jpg.png" width="75px" height="47"></a>
+
+              
+            <p class="rct"><i>Copyright RCT @2022.</i></p>
+        </div>
+        </footer>
+
+    </body>
+    </html>

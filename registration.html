@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="registrationhtml.css">
+
+</head>
+<body>
+    <header>
+        
+        <div>
+            <div class="logo">
+                <a href="index.html"><img src="image/Rosebelle Tabios.jpg"></a>
+                
+                    <ul class="nav">
+                        <li><a href="Table.html" >Stats</a></li>
+                        <a class="reg" href="registration.html">Registration</a>
+                        <li><a href="quiz app.html.html">Quiz App</a></li>
+                     </ul>
+            </div>
+        </div> 
+        <br><br>
+       
+        <form action="action_page.php" method="POST"> 
+        <div class="main">
+            <div class="regform"><h1>Student Registration Form</h1>
+                <p>Fill out the form carefully for registration</p>
+                </div>
+                <div>
+                    <h2 class="studentname">Student Name</h2>
+                    <input class="firstname" type="text" name="first_name"></input> <br>
+                    <label class="firstlabel">First Name</label>
+                    <input class="middlename" type="text" name="middle_name"></input>
+                    <label class="middlelabel">Middle Name</label>
+                    <input class="lastname" type="text" name="last_name"></input>
+                    <label class="lastlabel">Last Name</label>
+                </div>
+                
+                <div>
+                    <h2 class="birthdate">Birth Date</h2>
+                    <label class="monthlabel">Month</label>
+                    <select id="month" name="month">
+                        <option value=""></option>
+                        <option value="january">January</option>
+                        <option value="febraury">Febraury</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                   
+                        <label class="daylabel">Day</label>
+                        <input id="day" type="number"  name="day" min="0" max="31" value="1"></input>
+                   
+                        <label class="yearlabel">Year</label>
+                        <input id="year" type="number"  name="year" min="0" max="2010" value="2010"></input>
+                    </div>
+    
+                    <div>
+                        <h2 class="Gender">Gender</h2>
+                        <select id="gender" type="text" name="gender">
+                        <option value="please select">Please Select</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        </select>
+                    </div>
+                
+                <br>
+    
+                <div>
+                    <h2 class="address">Address</h2>
+                    <input class="streetaddress" type="text" name="street_address"></input><br>
+                    <label class="SA">Street Address</label>
+                </div>
+                    
+                <br>
+    
+                <div>
+                    <input class="streetaddress2" type="text" name="street_address2"></input><br>
+                    <label class="SA2">Street Address Line 2</label>
+               </div>
+    
+                <br>
+                
+                <div>
+                    <input class="city" type="text" name="city"></input><br>
+                    <label class="cityy">City</label>
+                    <input class="SP" type="text" name="state/province"></input><br>
+                    <label class="state">State/Province</label>
+                </div>
+    
+                <br>
+    
+                <div>
+                    <input class="postalzipcode" type="text" name="postal/zipcode"></input><br>
+                    <label class="pz">Postal/Zip Code</label>
+                </div>
+    
+                <br>
+    
+                <div>
+                    <h2 class="studemail">Student E-mail</h2>
+                    <input class="STE" type="text" name="student e-mail" placeholder="ex. michaelangelotatel@gmail.com"></input><br>
+    
+                    <h2 class="mobnum">Mobile Number</h2>
+                    <input class="MN" type="text" name="mobile number" placeholder="(000) 000 0000"></input><br>
+                </div>
+    
+                <div>
+                    <h2 class="PN">Phone Number</h2>
+                    <input class="pn" type="text" name="phone number" placeholder="(000) 000 0000"></input><br>
+                    
+                    <h2 class="WN">Work Number</h2>
+                    <input class="wn" type="text" name="work number" placeholder="(000) 000 0000"></input><br>
+                </div>
+    
+    
+    
+                <div>
+                    <h2 class="company">Company</h2>
+                    <input class="intcompany" type="text" name="company"></input><br>
+                   
+                </div>
+    
+                <div>
+                    <h2 class="course">Courses</h2>
+                     <select id="intcourse" type="text" name="course">
+                        <option value="please select">Please Select</option>
+                        <option value="BSIT">BSIT</option>
+                        <option value="BSIS">BSIS</option>
+                        <option value="BSCS">BSCS</option>
+                    </select>
+                </div>
+    
+                <div>
+                    <h2 class="addcom">Additional Comments</h2>
+                    <textarea class="AC" name="message" rows="5" cols="20" placeholder="Type here..."></textarea>
+                </div>
+    
+                <div>
+                    <button type="submit">Submit Application</button>
+                    <a href="registration.html"><p class="clearfields" type="clear">Clear Fields</p></a>
+                </div>
+    
+            </div>
+            </form>
+          
+            <footer>
+            <div class="bottom">
+                <p class="find">Here's to find me:<p>
+                <div class="pic">
+                    <a href="https://web.facebook.com/rosebelle.tabios/"><img src="image/fb.jpg.png" width="75px" height="47"></a>
+    
+                  
+                <p class="rct"><i>Copyright RCT @2022.</i></p>
+            </div>
+            </footer>
+</header>
+</body>
+</html>

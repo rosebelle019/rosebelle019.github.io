@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background: rgb(163, 119, 163);
+    position: relative;
+    height: 1850px;
+}
+
+
+
+.nav{
+    position: relative;
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    top: 70px;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+.reg{
+    color: white;
+}
+
+.logo img{
+    position: relative;
+    width:150px;
+    float:left;
+    height: 150px;
+    margin: 50px;
+    top: -30px;
+}
+
+
+.regform{
+    width:800px;
+    background-color: rgb(0, 0, 0, 0, 6);
+    margin: auto;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: 20px;
+}
+
+hr{
+    position: relative;
+    left: 150px;
+}
+
+.main{
+    background-color: rgb(94, 56, 94);
+    width: 815px;
+    height:1505px;
+    margin: auto;
+    position:relative;
+    top: 150px;
+}
+
+    form{
+        padding: 20px;
+}
+
+.studentname{
+    width: 50%;
+    height: 10px;
+}
+
+
+.studentname{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: black;
+    font-size: 18px;
+    font-weight:700;
+}
+
+.firstname{
+    position: relative;
+    left:20px;
+    top: 25px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.middlename{
+    position: relative;
+    left: 220px;
+    top: -19px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position: relative;
+    left:160px;
+    top: -19px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    color:#555;
+}
+
+
+.firstlabel{
+    position:relative;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:23px;
+    top: 15px;
+}
+
+.middlelabel{
+    position:relative;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:-25px;
+    top: 15px;
+}
+.lastlabel{
+    position:relative;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:-85px;
+    top: 15px;
+}
+
+
+.birthdate{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 125px;
+    color: black;
+    font-size: 18px;
+    font-weight:700;
+
+}
+
+#month{
+    position: relative;
+    left:-25px;
+    top: 10px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+#day{
+    position: relative;
+    left:-80px;
+    top: 10px;
+    height: 20px; 
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+#year{
+    position: relative;
+    left:-140px;
+    top: 10px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    height: 20px;
+}
+
+
+.monthlabel{
+    position: relative;
+    left:45px;
+    top: 30px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.daylabel{
+    position: relative;
+    left:-25px;
+    top: 30px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+.yearlabel{
+    position: relative;
+    left:-85px;
+    top: 30px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+
+.Gender{
+    margin-right: 150px;
+    margin-top: -40px;
+    width: 125px;
+    color: black;
+    font-size: 18px;
+    font-weight:700;
+    float: right;
+}
+
+#gender{
+margin-right: 19px;
+margin-top: -10px;
+width: 270px;
+color: black;
+font-size: 16px;
+float: right;
+border-radius: 6px;
+}
+
+.address{
+margin-left: 25px;
+margin-top: 50px;
+width: 125px;
+color:black;
+font-size: 18px;
+font-weight:700;
+}
+.streetaddress{
+    position: relative;
+    left:20px;
+    top: 10px;
+    line-height: 40px;
+    width:725px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+
+.SA{
+    position:relative;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    left:23px;
+    top: 15px;
+}
+.streetaddress2{
+    position: relative;
+    left:20px;
+    top: 15px;
+    line-height: 40px;
+    width:725px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+.SA2{
+position:relative;
+color: black;
+text-transform: capitalize;
+font-size: 14px;
+left:23px;
+top:15px;
+}
+
+.city{
+position: relative;
+left: 20px;
+top: 40px;
+line-height: 40px;
+width:300px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+}
+.cityy{
+position:relative;
+color: black;
+text-transform: capitalize;
+font-size: 14px;
+left:23px;
+top: 30px;
+}
+
+.SP{
+position: relative;
+left:450px;
+top: -3px;
+line-height: 40px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+width: 270px;
+}
+
+.state{
+position:relative;
+color: black;
+text-transform: capitalize;
+font-size: 14px;
+left:480px;
+top: 1px;
+}
+
+.postalzipcode{
+    position: relative;
+    left:20px;
+    top: 10px;
+    line-height: 40px;
+    width:725px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;    
+
+}
+
+.pz{
+position:relative;
+color: black;
+text-transform: capitalize;
+font-size: 14px;
+left:23px;
+top:10px;
+}
+
+.studemail{
+margin-left: 25px;
+margin-top: 50px;
+width: 125px;
+color: black;
+font-size: 18px;
+font-weight:700;
+}
+
+.STE{
+position: relative;
+left: 20px;
+top: 10px;
+line-height: 40px;
+width:300px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+}
+
+.mobnum{
+margin-left: 480px;
+margin-top: -59px;
+width: 125px;
+color: black;
+font-size: 18px;
+font-weight:700;
+
+}
+
+.MN{
+position: relative;
+left:480px;
+top: 4px;
+line-height: 40px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+width: 270px;
+
+}
+
+.PN{
+margin-left: 25px;
+margin-top: 50px;
+width: 125px;
+color: black;
+font-size: 18px;
+font-weight:700;
+}
+
+.pn{
+position: relative;
+left: 20px;
+top: 10px;
+line-height: 40px;
+width:300px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+}
+
+.WN{
+margin-left: 480px;
+margin-top: -59px;
+width: 125px;
+color: black;
+font-size: 18px;
+font-weight:700;
+
+}
+
+.wn{
+position: relative;
+left:480px;
+top: 4px;
+line-height: 40px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+width: 270px;
+
+}
+
+.company{
+margin-left: 25px;
+margin-top: 50px;
+width: 125px;
+color: black;
+font-size: 18px;
+font-weight:700;
+}
+
+.intcompany{
+position: relative;
+left: 20px;
+top: 10px;
+line-height: 40px;
+width:300px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+}
+
+.course{
+margin-left: 25px;
+margin-top: 50px;
+width: 125px;
+color: black;
+font-size: 18px;
+font-weight:700;
+}
+
+#intcourse{
+position: relative;
+left: 20px;
+top: 10px;
+line-height: 0px;
+width:350px;
+height: 45px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+}
+
+.addcom{
+margin-left: 25px;
+margin-top: 50px;
+color: black;
+
+}
+
+.AC{
+position: relative;
+left: 20px;
+top: 10px;
+line-height: px;
+width:730px;
+height: 200px;
+border-radius: 6px;
+padding:0 22px;
+font-size: 16px;
+}
+
+
+button{
+    background-color: green;
+    display: block;
+    margin: 50px;
+    text-align: center;
+    border-radius: 12px;
+    border: 10px  black;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+  
+}
+
+.clearfields{
+    background-color: green;
+    display: block;
+    margin-left: 460px;
+    margin-top: -59px;
+  
+    text-align: center;
+    border-radius: 12px;
+    border: 2px black;
+    padding: 10px 40px;
+    outline: none;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+    float: right;
+    position: relative;
+    left: -50px;
+    
+}
+
+.bottom{
+    position: relative;
+    background-color: rgb(109, 76, 112);
+    text-align: left;
+    height: 60px;
+    border: 1px solid black;
+    top: 250px;
+
+}
+
+.find{
+    position: relative;
+    float:left;
+    margin: 4px;
+    top: -70px;
+}
+
+.pic{
+    position: relative;
+    top: -85px;
+    margin: 5px;
+    width: 1000px;
+    float: left;
+    right: 10px;
+}
+
+.instagram{
+    position: relative;
+    top: -3px;
+}
+
+.contact{
+    position: relative;
+    left: 20px;
+    top: 1px;
+}
+
+
+.rct{
+    position: relative;
+    top: 15px;
+    float: right;
+    left: 150px;
+}
